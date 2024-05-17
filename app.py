@@ -9,7 +9,7 @@ from langchain.vectorstores import Chroma
 from langchain.chains import ConversationalRetrievalChain
 from langchain.agents import load_tools, initialize_agent, AgentType
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = apikey
 
 def clear_history():
     if 'history' in st.session_state:
